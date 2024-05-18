@@ -60,12 +60,13 @@ class _TabThreeState extends State<TabThree> {
                         Icons.timer_outlined,
                         size: 15.0,
                       ),
-                      releaseDate: data[index].releaseDate,
+                      releaseDate:data[index].releaseDate,
                     );
                   },
                 ),
               );
             }
+            
           });
       }
   }
