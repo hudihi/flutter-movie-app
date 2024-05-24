@@ -18,7 +18,7 @@ class PopOptionMenu extends StatelessWidget {
       );
   }
 }
-
+ 
 class DrawerWidget extends StatelessWidget {
   const DrawerWidget({
     super.key,
@@ -34,7 +34,35 @@ class DrawerWidget extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
-            child: Text('Menu'),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                    Row(
+                      children: [ 
+                        CircleAvatar(
+                          radius: 30,
+                        ),
+                        Spacer(
+                          flex: 1,
+                        ),
+                        SizedBox(
+                          width: 100,
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: [
+                              Icon(Icons.arrow_back_ios,
+                              size: 15.0),
+                              Text('back'),
+                            ],
+                          )
+                        ),
+                      ],
+                    ),
+                    
+                  ],
+            ),
             ),
             ListTile(
               leading:  Icon(MdiIcons.googleTranslate),
