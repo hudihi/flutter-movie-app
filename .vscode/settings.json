@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/Users/ISSA/flutter_project/movie_browser/windows"
+    "cmake.sourceDirectory": "C:/Users/ISSA/flutter_project/movie_browser/windows",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
