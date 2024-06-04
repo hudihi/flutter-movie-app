@@ -7,7 +7,7 @@ import 'package:movie_browser/home.dart';
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return StreamBuilder<User?>(
       stream: FirebaseAuth.instance.authStateChanges(),
