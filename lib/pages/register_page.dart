@@ -115,6 +115,7 @@ class _RegisterPageState extends State<RegisterPage> {
               ),
               const SizedBox(height: 20,),
             
+            //confirm password field
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 25),
                 decoration:  BoxDecoration(
@@ -137,6 +138,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 ),
               ),
               const SizedBox(height: 15,),
+              
               //sign in  button
               Container(
                 decoration: BoxDecoration(

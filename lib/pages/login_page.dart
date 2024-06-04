@@ -1,6 +1,7 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:movie_browser/pages/forgot_password.dart';
 
 class LoginPage extends StatefulWidget {
   final VoidCallback showRegisterPage;
@@ -127,7 +128,7 @@ class _LoginPageState extends State<LoginPage>
                           context,
                           MaterialPageRoute(
                             builder: (context){
-                            return const SizedBox();
+                            return const ForgotPasswordPage();
                             },
                             ),
                           );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:movie_browser/auth/main_page.dart';
 
-import 'home.dart';
 
 void main() async {
   await dotenv.load(fileName: "assets/.env");
@@ -23,9 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(
-        title: 'Movies',
-      ),
+      home: const MainPage(),
     );
   }
 }
